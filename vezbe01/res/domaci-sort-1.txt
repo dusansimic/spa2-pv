@@ -1,0 +1,102 @@
+                  zadatak - sortiranje
+************************************************************
+
+Napisati program `Sortiranje` koji ucitava podatke iz fajla,
+sortira ih i ispisuje u drugi fajl. Detalji su dati po
+delovima u daljem tekstu.
+
+Sadrzaj:
+-------
+Opis podataka i format fajla
+ZADATAK
+-kreiranje klase
+-ucitavanje i snimanje
+-komparatori
+-sortiranje
+-stil
+
+
+Opis podataka i format fajla
+------------------------------------------------------------
+
+U prvom redu se nalazi broj N koji odredjuje koliko ima
+elemenata u fajlu. Potom slede opisi elemenata.
+
+Elementi u fajlu su podaci o studentima, a svaki je
+predstavljen u tri reda. U prvom redu je prezime, a u drugom
+ime. Oba podataka su stringovi. U trecem redu se nalazi
+podatak o godini upisa, koji je ceo broj.
+
+Za testiranje je dato nekoliko fajlova sa razlicitim
+brojem ulaznih vrednosti.
+
+
+ZADATAK:
+============================================================
+
+Kreiranje klase 
+------------------------------------------------------------
+
+Napraviti klasu koja predstavlja opisani tip podataka koji
+se ucitavaju iz fajla.
+
+Obratiti paznju na definicije polja i njihov pristup i
+promenu izvan klase.
+
+
+Ucitavanje i snimanje podataka 
+------------------------------------------------------------
+
+Ucitati podatke iz fajla cije ime navodi korisnik. Ako fajl
+ne postoji odustati od daljeg rada. Fajl je organizovan u
+skladu sa gore opisanim formatom.
+
+Za potrebe zadatka, pretpostaviti da je (ukoliko postoji)
+fajl ispravan u skladu sa definicijama gore.
+
+Ispisati u fajl koji precizira korisnik (drugim upitom)
+sortirani niz, u formatu kao sto je opisan u odgovarajucem
+delu ovog teksta, odnosno tako da bi se mogao koristiti kao
+ulaz u programu.
+
+O sortiranju
+------------
+
+Za sortiranje koristiti metod `sort` iz klase `Arrays` iz
+paketa `java.util`.
+
+Klasa koja predstavlja studenta treba da implementira interfejs
+`Comparable` i da ima svoj `compareTo` metod da bi niz
+mogao biti sortiran gore pomenutim metodom. Na primer
+
+    class Student implements Comparable<Student> {
+    ...
+	public int compareTo(Student drugi) {
+	....
+	}
+    ...
+    }
+
+
+Najjednostavnija varijanta je da se niz studenata sortira po godini
+upisa.
+
+Kada se testira da to radi, prepraviti da se studenti sortiraju
+po prezimenu i po imenu, odnosno kod studenata kod kojih je prezime isto
+treba da su sortirani po imenu.
+
+Poslednji zadatak je sortiranje studenata po sva tri kriterijuma, tj.
+po godini upisa, po prezimenu, pa po imenu.
+
+Sortirani niz snimiti u novi fajl u formatu kao u ulaznom fajlu.
+Ovo se najbolje testira tako sto se program ponovo pokrene i 
+ucita se novonapravljeni fajl.  Ako program normalno ucita i 
+snimi podatke trebalo bi da je zadovoljen format.
+
+Stil programiranja
+------------------------------------------------------------
+
+Pri pisanju programa obratiti paznju na stil, sto ukljucuje
+organizaciju koda u klase i metode, vidljivost polja u
+klasama, uredno formatiranje koda, logicna imena klasa,
+metoda i polja u skladu sa standardima jezika Java.
