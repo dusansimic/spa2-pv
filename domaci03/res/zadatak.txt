@@ -1,0 +1,18 @@
+Klasom Fudbaler definisan je fudbaler sa punim imenom,
+godinom rodjenja, pozicijom na kojoj igra (Golman,
+Napadac, Sredisnji, Odbrambeni) i informacijom da li
+igra u prvoj postavi ili ne (da/ne).
+
+Napisati equals i hashCode za klasu Fudbaler tako da uzima
+u obzir sve gore navedene atribute.
+
+Spisak fudbalera dat je u dva fajla:
+    f0 - sadrzi fudbalere koji su igrali u sezoni 2019
+    f1 - sadrzi fudbalere koji su igrali u sezoni 2020
+
+Napraviti statistiku koja ce da odgovori na pitanje:
+    - koji fudbaleri iz 2019 igraju u 2020
+        - od tih, na kojim pozicijama ih je koliko?
+
+
+

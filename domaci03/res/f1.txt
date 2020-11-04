@@ -1,0 +1,401 @@
+100
+Waqas Montes
+Odbrambeni
+1980
+ne
+Franco Swift
+Golman
+1995
+ne
+Fathima Mccarthy
+Odbrambeni
+1996
+ne
+Corey Waller
+Golman
+1972
+da
+Angel Britton
+Golman
+1973
+ne
+Lacy Sharpe
+Sredisnji
+1989
+da
+Kaya Stevens
+Sredisnji
+1971
+ne
+Vivek Farrell
+Odbrambeni
+1997
+ne
+Murray Novak
+Sredisnji
+1984
+ne
+Emmeline Mckeown
+Sredisnji
+1976
+ne
+Clive Walton
+Napadac
+1997
+da
+Daanyaal Clemons
+Napadac
+1997
+ne
+Hadley Slater
+Odbrambeni
+1997
+ne
+Troy Jeffery
+Napadac
+1971
+da
+Ebonie Browne
+Golman
+1972
+ne
+Sarah-Jane Byrne
+Odbrambeni
+1991
+da
+Nola Green
+Napadac
+1970
+ne
+Britney Watts
+Golman
+1997
+ne
+Jaidan Lutz
+Golman
+1971
+ne
+Shiv Hook
+Napadac
+1986
+da
+Tehya Bentley
+Napadac
+1971
+ne
+Olly Avila
+Sredisnji
+1992
+ne
+Tyrique Flynn
+Golman
+1985
+ne
+Colton Golden
+Napadac
+1982
+ne
+Roy Moran
+Odbrambeni
+1988
+ne
+Killian Howe
+Odbrambeni
+1973
+da
+Dawson Rayner
+Napadac
+1975
+da
+Johnathan O'Ryan
+Odbrambeni
+1972
+da
+Sahara Stott
+Odbrambeni
+1985
+da
+Adrianna Sharma
+Sredisnji
+1988
+ne
+Aliyah Britt
+Napadac
+1993
+ne
+Petra Haigh
+Napadac
+1984
+da
+Kayden Roche
+Sredisnji
+1991
+ne
+Hasan Schneider
+Napadac
+1987
+ne
+Tyron Mathis
+Napadac
+1984
+ne
+Darcie Tate
+Odbrambeni
+1996
+ne
+Marsha Pearce
+Napadac
+1992
+ne
+Mackenzie Beltran
+Napadac
+1991
+da
+Dion Hume
+Napadac
+1973
+da
+Kenneth Holloway
+Golman
+1981
+ne
+Lexi Thatcher
+Golman
+1987
+da
+Zuzanna Reeve
+Napadac
+1983
+da
+Usmaan Bruce
+Odbrambeni
+1979
+ne
+Haroon Delarosa
+Golman
+1971
+da
+Colm Deleon
+Golman
+1974
+da
+Shaunie Anthony
+Sredisnji
+1984
+da
+Ella-Louise Felix
+Sredisnji
+1993
+ne
+Mahek Choi
+Golman
+1981
+ne
+Grover Chambers
+Odbrambeni
+1987
+ne
+Shae Duarte
+Golman
+1974
+ne
+Milena Merrill
+Golman
+1994
+da
+Aliya Mill
+Odbrambeni
+1991
+da
+Nelly Leach
+Golman
+1971
+ne
+Damon Figueroa
+Sredisnji
+1979
+ne
+Shakira Vinson
+Sredisnji
+1998
+da
+Keira Mackenzie
+Sredisnji
+1971
+da
+Catrin Flores
+Napadac
+1972
+da
+Pedro Bryan
+Sredisnji
+1991
+da
+Sol Kearney
+Napadac
+1997
+ne
+Vinay Lane
+Sredisnji
+1986
+ne
+Shanae Hibbert
+Sredisnji
+1977
+ne
+Eden Craft
+Golman
+1970
+da
+Claudia Wills
+Odbrambeni
+1973
+da
+Xavier Mcleod
+Odbrambeni
+1978
+ne
+Norman Delgado
+Sredisnji
+1996
+ne
+Kayley Corrigan
+Odbrambeni
+1985
+ne
+Naya Torres
+Odbrambeni
+1987
+ne
+Dua Walmsley
+Sredisnji
+1975
+ne
+Alba Esparza
+Odbrambeni
+1976
+da
+Brodie Hirst
+Golman
+1982
+ne
+Ella-Mai Morin
+Napadac
+1971
+ne
+Rukhsar Mcfadden
+Sredisnji
+1980
+da
+Elicia Barber
+Sredisnji
+1992
+ne
+Ayisha Watkins
+Sredisnji
+1994
+ne
+Amrita Thorne
+Odbrambeni
+1985
+ne
+Nikolas Barclay
+Napadac
+1974
+ne
+Hubert Reyna
+Napadac
+1981
+da
+Havin Whitley
+Napadac
+1973
+ne
+Hallie Ballard
+Odbrambeni
+1987
+da
+Bentley Horner
+Golman
+1983
+ne
+Pooja Stephenson
+Golman
+1982
+da
+Tyler Rich
+Golman
+1987
+da
+Ryker Stafford
+Napadac
+1977
+ne
+Kayan Grant
+Sredisnji
+1986
+ne
+Elleanor Holman
+Golman
+1983
+ne
+Anika Mac
+Golman
+1997
+ne
+Menachem Marin
+Sredisnji
+1998
+ne
+Lexi-Mai Nicholson
+Sredisnji
+1992
+da
+Ismail Johnston
+Golman
+1984
+ne
+Jay-Jay Connolly
+Sredisnji
+1984
+da
+Jac Bradford
+Odbrambeni
+1986
+da
+Oliwier Nielsen
+Napadac
+1994
+ne
+Javier Phillips
+Golman
+1994
+da
+Sahib Parra
+Golman
+1998
+ne
+Stacy Hawkins
+Golman
+1990
+ne
+Kane Martins
+Golman
+1987
+ne
+Daniyal Ramsay
+Sredisnji
+1973
+da
+Margo Wiley
+Sredisnji
+1975
+ne
+Yasin Bright
+Napadac
+1979
+ne
+Tahlia Nairn
+Sredisnji
+1971
+ne
