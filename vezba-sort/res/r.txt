@@ -1,0 +1,86 @@
+12
+
+1
+12
+15
+amfVII
+1
+Uvod u programiranje
+
+3
+17
+19
+s65
+2
+Strukture podataka i algoritmi 2
+
+3
+19
+20
+s65
+2
+Strukture podataka i algoritmi 2
+
+4
+09
+13
+s61
+4
+Konstrukcija kompajlera
+
+1
+19
+21
+s65
+3
+Operativni sistemi 1
+
+1
+13
+16
+amfI
+2
+Objektno orijentisano programiranje 1
+
+2
+18
+20
+amfVII
+2
+Objektno orijentisano programiranje 1
+
+5
+14
+19
+rc59
+2
+Strukture podataka i algoritmi 2
+
+4
+09
+21
+rc59
+2
+Strukture podataka i algoritmi 2
+
+2
+09
+16
+rc59
+3
+Operativni sistemi 1
+
+3
+08
+11
+s60
+3
+Veštačka inteligencija
+
+4
+09
+21
+rc59
+2
+Objektno orijentisano programiranje 1
+

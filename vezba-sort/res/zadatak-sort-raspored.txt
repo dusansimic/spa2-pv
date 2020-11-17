@@ -1,0 +1,38 @@
+Zadatak - sortiranje rasporeda
+==============================
+
+Dati su podaci o rasporedu koje treba sortirati.
+
+Podatke treba ucitati iz fajla, sortirati, a potom ispisati u novi
+fajl u istom formatu.
+
+
+Format fajla
+------------
+
+Na pocetku fajla je broj N koji predstavlja broj stavki u rasporedu.
+Nakon toga su date stavke.
+
+Svaka stavka je razdvojena od predhodne praznim redom.
+
+Pojedinacna stavka se sastoji od sledecih podataka (svaki u novom redu):
+- redni broj dana (1-5)
+- pocetak nastave (sat, 0-23)
+- kraj nastave (sat, 0-23)
+- sala (string)
+- godina studenata koji redovno slusaju predmet (1-5)
+- ime predmeta (string)
+
+
+Sortiranje
+----------
+
+Napraviti odgovarajuce komparatore za sledeca uredjenja:
+
+- po imenu predmeta
+- po godini studija, danu u nedelji, satima (koristiti kompozitni komparator)
+- po salama, po danu, po satu (sve opadajuce)
+- po duzini predavanja
+
+"Prirodni" poredak klase (`compareTo` metod) je prvo po danima, nakon toga
+po satima, a potom po salama.

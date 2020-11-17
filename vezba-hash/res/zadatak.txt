@@ -1,0 +1,11 @@
+Gadjanje mete
+-------------
+
+Potrebno je da čuvamo podatke o rezultatima gadjanja mete. U nizu se
+nalazi do 20 brojeva izmedju i uključujući 0 i 10. Implementirati hash
+code i equals metode. U metodi ucitaj, implementirati ucitavanje jedne
+sekvence gadjanja, kako je to radjeno na poslednjim vezbama.
+
+U fajlovima t0 i t1 dati su rezultati gadjanja. U svakom redu, prvo je dat
+broj gadjanja a onda vrednosti za svaki pogodak.
+
