@@ -1,0 +1,123 @@
+                  zadatak - sortiranje
+************************************************************
+
+Napisati program `Sortiranje` koji ucitava podatke iz fajla,
+sortira ih i ispisuje u drugi fajl. Detalji su dati po
+delovima u daljem tekstu.
+
+Sadrzaj:
+-------
+Opis podataka i format fajla
+ZADATAK
+-kreiranje klase
+-ucitavanje i snimanje
+-komparatori
+-sortiranje
+-stil
+
+
+Opis podataka i format fajla
+------------------------------------------------------------
+
+U prvom redu se nalazi broj N koji odredjuje koliko ima
+elemenata u fajlu. Potom slede opisi elemenata.
+
+U fajlu se cuvaju podaci o kursnim listama.
+Svaki element je predstavljen u 5 redova. U prvom redu je
+string, troslovna oznaka valute. U sledeca tri reda se
+nalaze po jedan broj tipa `int` koji respektivno
+predstavljaju Kupovni, Srednji i Prodajni kurs. U petom
+redu opisa elementa se nalazi `int` koji predstavlja
+redni dan kad je zapisana vrednost kursa.
+
+Za testiranje je dato nekoliko fajlova sa razlicitim
+brojem ulaznih vrednosti.
+
+
+ZADATAK:
+============================================================
+
+Kreiranje klase (2 poena)
+------------------------------------------------------------
+
+Napraviti klasu koja predstavlja opisani tip podataka koji
+se ucitavaju iz fajla.
+
+Obratiti paznju na definicije polja i njihov pristup i
+promenu izvan klase.
+
+
+Ucitavanje i snimanje podataka (5 poena)
+------------------------------------------------------------
+
+Ucitati podatke iz fajla cije ime navodi korisnik. Ako fajl
+ne postoji odustati od daljeg rada. Fajl je organizovan u
+skladu sa gore opisanim formatom.
+
+Za potrebe zadatka, pretpostaviti da je (ukoliko postoji)
+fajl ispravan u skladu sa definicijama gore.
+
+Ispisati u fajl koji precizira korisnik (drugim upitom)
+sortirani niz, u formatu kao sto je opisan u odgovarajucem
+delu ovog teksta, odnosno tako da bi se mogao koristiti kao
+ulaz u programu.
+
+
+Komparatori (10 poena)
+------------------------------------------------------------
+
+Klasu koja predstavlja tip podataka koji se cuva u nizu
+definisati tako da implementira `Comparable` interfejs, te
+da se podaci "prirodno" (koriscenjem `compareTo` metoda)
+sortiraju na sledeci nacin:
+
+- po kupovnom kursu.
+
+Ponuditi korisniku da unosom broja odabere kako ce niz biti
+sortiran. Treba ponuditi cetiri opcije koje se biraju unosom
+broja 1, 2, 3 ili 4. Ako korisnik unese nesto drugo
+prijaviti gresku i odustati od daljeg rada.
+
+Opcija 1 je sortiranje prirodnim uredjenjem.
+
+Dodatne opcije za sortiranje realizovati kreiranjem
+komparatora (klasa koje implementiraju interfejs
+`Comparator` iz paketa `java.util`).
+
+Napraviti komparatore za sledeca uredjenja:
+
+- po valuti i srednjem kursu, tj tako da se redom izlistavaju
+abecedno sve valute i njihovi srednji kursevi opadajuce.
+
+- po apsolutnoj razlici izmedju prodajnog i kupovnog kursa,
+tako da se na pocetku nalaze oni sa najvecim razlikama.
+
+- po apsolutnoj vrednosti povecanja/smanjenja (u procentima) 
+izmedju prodajnog i kupovnog kursa, opadajuce. 
+  ***Na primer, (1) ako je prodajni kurs 10.50, a kupovni 
+  kurs 11.50, postoji povecanje od 9.52%. Suprotno, (2) ako je prodajni
+  kurs 10 a kupovni kurs 8.8, postoji smanjenje od 12%. U sortiranom nizu
+  prvo se prikazuje (2) pa (1). 
+
+
+Sortiranje (2 poena)
+------------------------------------------------------------
+
+Napisati metod koji sortira prosledjeni niz.
+
+Koristiti jednu od elementarnih metoda sortiranja. 
+
+Pri odabiru predpostaviti da ce program biti izvrsavan na
+sistemu sa jako malo radne memorije u odnosu na velicinu
+niza i da ce pristup podacima biti veoma spor, odnosno da se
+zbog efikasnosti zeli imati sto manji broj premestanja
+memorije.
+
+
+Stil programiranja (1 poen)
+------------------------------------------------------------
+
+Pri pisanju programa obratiti paznju na stil, sto ukljucuje
+organizaciju koda u klase i metode, vidljivost polja u
+klasama, uredno formatiranje koda, logicna imena klasa,
+metoda i polja u skladu sa standardima jezika Java.
