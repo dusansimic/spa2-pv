@@ -145,9 +145,11 @@ public class Main {
 				}
 			}
 
-			Predmet tmp = arr[max];
-			arr[max] = arr[i];
-			arr[i] = tmp;
+			if (max != i) {
+				Predmet tmp = arr[max];
+				arr[max] = arr[i];
+				arr[i] = tmp;
+			}
 		}
 	}
 
