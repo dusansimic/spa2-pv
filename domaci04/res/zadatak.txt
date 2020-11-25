@@ -1,0 +1,123 @@
+============================================================
+  Zadatak - pretrazivanje sa vracanjem - put u lavirintu
+============================================================
+
+
+Postavka problema
+============================================================
+
+Neka je dat lavirint kao matrica polja, pri cemu razlicite
+vrednosti polja imaju razlicito znacenje. Potrebno je pronaci
+put kroz lavirint od pocetnog polja, do izlaza iz lavirinta,
+pri cemu se pod putem smatra niz polja koja je potrebno
+posetiti u datom redosledu, da bi se stiglo od pocetnog polja
+do cilja. Pri obilasku lavirinta, sa jednog polja je moguce
+preci na susedno ako ona imaju istu ivicu, tj. ako se ono
+nalazi odmah levo, desno, gore ili dole u odnosu na trenutno
+polje.
+
+Znacenja vrednosti polja su;
+0   = slobodno polje u lavirintu na koje je dozvoljeno stati
+-11 = zid, polje na koje nije dozvoljeno stati
+-99 = izlaz iz lavirinta
+
+
+Format fajla
+------------------------------------------------------------
+
+Mapa je u fajlu predstavljena na sledeci nacin:
+
+U prvom redu se nalaze dva broja S i V koji predstavljaju
+sirinu i visinu mape.
+
+U sledecih V redova se nalaze po S celih brojeva koji
+predstavljaju vrednosti polja u lavirintu.
+
+Polje (0, 0) nalazi se u gornjem levom polju matrice.
+
+
+Primeri
+------------------------------------------------------------
+
+Za testiranje programa su dati su fajlovi:
+"lav1.txt" i "lav2.txt" u kojima postoji resenje
+"lavp.txt" koji ne sadrzi zidove
+"lavb.txt" u kojem nije moguce naci resenje
+
+"lav-rupe.txt" za testiranje modifikacije zadatka sa rupama
+"lav-prepreke.txt" za testiranje modifikacije zadatka sa preprekama
+
+Modifikacije su opisane na kraju teksta.
+
+
+Zadatak
+============================================================
+
+Napisati klasu PostojanjePuta koja ucitava ime fajla u kojem
+se nalazi definisan lavirint. Program treba da ucita
+lavirint iz datog fajla, ispise ga na ekran i proveri
+postojanje puta.
+
+Uzeti da je pocetno polje uvek 0,0, odnosno gornji levi
+ugao.
+
+
+Pretrazivanje sa vracanjem
+------------------------------------------------------------
+
+Jedan od nacina da se uradi zadatak je koriscenjem
+pretrazivanja sa vracanjem (poznatom u literaturi pod
+engleskim nazivom "backtrack").
+
+Ideja je jednostavna, krenemo od prvog polja, oznacimo ga
+kao poseceno i pokusamo da se prebacimo na bilo koje
+neobidjeno susedno. Na tom polju ponovimo isti postupak i
+tako nastavljamo dok ne naidjemo na izlaz ili dok vise
+nemamo gde da idemo.
+
+Ukoliko nismo naisli na izlaz, a nemamo gde dalje da idemo,
+onda oznacimo trenutno polje kao neobidjeno i vratimo se
+jedno polje nazad i probamo nekog drugog suseda. Ako vise
+nema suseda vratimo se jos jedno polje. Ukoliko vise nema
+gde da se vracamo znaci da se do izlaza ne moze doci.
+
+Backtrack je najlakse izvoditi rekurzivno, tako da se poziv
+procedure vrsi za pojedinacno polje. Ovako se povratkom iz
+rekurzije vracamo na polje odakle smo dosli.
+
+Jedna od mogucih varijanti ideje procedure:
+
+rek(i,j,...)
+- nije u matrici?  -> izlaz
+- zid?  -> izlaz
+- poseceno polje? -> izlaz
+- da li je kraj? -> obradimo resenje
+- inace trazimo dalje
+-   postavimo da je poseceno polje
+-   pokusamo da obidjemo sve susede:
+-       rek(i+1,j,..)
+-       rek(i-1,j,..)
+-       rek(i,j+1,..)
+-       rek(i,j-1,..)
+-   postavimo da polje nije poseceno
+
+
+Prosirenje zadatka:
+------------------------------------------------------------
+
+(1) Dodati da se korisnik pita za pocetno polje u lavirintu
+umesto da se uvek koristi 0,0.
+
+(2) Dodati da se ispise nadjeni put u lavirintu (u sustini je
+dosta pri povratku iz rekurzije ispisivati polja koja
+su vratila true).
+
+(3)
+Neka je dat lavirint sa sledecim dodatnim poljima:
+-1 = rupa na putu
+bilo koji pozitivan broj = visina prepreke na putu
+
+Modifikovati postojece metode za trazenje puta tako da:
+- omogucavaju preskakanje rupa, ali samo ako je rupa velicine
+  jednog polja. Rupe koje su u datom pravcu duze od jednog
+  polja ne mogu se preskakati.

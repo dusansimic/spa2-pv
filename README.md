@@ -11,3 +11,7 @@
 ## Vežbe 3
 
 - [Fudbaleri sa hash skupovima](./domaci03)
+
+## Vežbe 4
+
+- [Lavirint](./domaci04)
