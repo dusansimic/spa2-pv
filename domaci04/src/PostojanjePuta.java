@@ -74,7 +74,7 @@ public class PostojanjePuta {
             return false;
 
         if (lavirint[x][y] - visinaPrethodnogPolja > 3)
-            if (preskocene > 4)
+            if (preskocene == 4)
                 return false;
             else
                 preskocene++;
