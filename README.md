@@ -2,7 +2,7 @@
 
 ## Vežbe 1
 
-- [Sortiranje studenata](./vezbe01)
+- [Sortiranje studenata](./domaci01)
 
 ## Vežbe 2
 
