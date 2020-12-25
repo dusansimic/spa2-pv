@@ -1,0 +1,73 @@
+Zadatak
+=======
+
+Data je klasa koja implementira binarno stablo osoba.
+Takodje, dat je i glavni program koji ucitava jedno stablo i
+poziva neke od operacija nad njim.
+
+Implementirati operacije navedene u nastavku i ilustrovati
+njihov rad pozivanjem iz glavnog programa. Svaki metod je
+potrebno implementirati kao javan metod klase koja
+predstavlja stablo, a po potrebi se definisu pomocni
+staticki metodi koji ce rekurzivno obilaziti stablo. Pomocni
+metodi ce cesto biti istog imena kao i glavni metod.
+
+Primer implementacije metoda i njihovih poziva postoji u
+`StabloOsobaProgram.java`.
+
+
+Metodi
+======
+
+public double prosecnaPlata()
+-----------------------------
+
+U klasi StabloOsoba, implementirati metod koji
+izracunava i vraca prosecnu platu svih zaposlenih.
+
+Ako je stablo prazno, prosecna plata je 0.0.
+
+public List<Osoba> sviNadredjeni(Osoba o)
+-----------------------------------------
+
+U klasi StabloOsoba, implementirati metod koji
+vraca listu svih nadredjenih datoj osobi pocevsi
+od generalnog direktora.
+
+
+public List<Osoba> sviSaIstomPlatom()
+-------------------------------------
+
+U klasi StabloOsoba, implementirati metod koji
+pronalazi i vraca sve osobe koje imaju platu
+istu kao jos neka druga osoba.
+
+
+public void ispisiOsobeSaVecomPlatomOdSefa()
+--------------------------------------------
+
+U klasi StabloOsoba, implementirati metod koji
+ispisuje sve osobe koje imaju vecu platu od svog sefa.
+
+
+public List<Osoba> vecaPlataOdDirektora()
+-----------------------------------------
+
+U klasi StabloOsoba, implementirati metod koji
+vraca listu svih zaposlenih koji imaju vecu
+platu od generalnog direktora (koren celog stabla).
+
+public List<Osoba> plataIznadProseka()
+--------------------------------------
+
+U klasi StabloOsoba, implementirati metod koji
+vraca listu svih zaposlenih koji imaju platu iznad
+proseka u firmi.
+
+DOMACI ZADATAK:
+    public Osoba drugaPoReduSaNajvecomPlatom()
+    ------------------------------------------
+
+    U klasi StabloOsoba, implementirati metod koji
+    pronalazi i vraca osobu koja je druga po redu
+    po velicini plate.
