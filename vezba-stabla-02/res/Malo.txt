@@ -1,0 +1,13 @@
+         /-----(o) Skoda Octavia;Siva;SD 409-GV;78967
+         |
+  /-----(o) Zastava 101;Bela;NI 761-VZ;59325
+  |      |
+  |      \-----(o) Lancia Lybra;Siva;SU 741-KC;54260
+  |
+-(o) Renault Twingo;Bela;NI 747-EF;44580
+  |
+  \-----(o) Zastava 101;Crvena;NS 388-SV;12345
+         |
+         |      /-----(o) Peugeot 206;Plava;LE 810-ZO;33865
+         |      |
+         \-----(o) Citroen C4;Plava;BG 082-ZD;33658
