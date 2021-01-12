@@ -1,0 +1,61 @@
+                /-----(o) Zastava 10;Crna;BG 145-SS;79159
+                |
+         /-----(o) Skoda Octavia;Siva;SD 409-GV;78967
+         |      |
+         |      |      /-----(o) Zastava 101;Crvena;SD 934-MP;74130
+         |      |      |
+         |      \-----(o) Smart ForTwo;Zuta;PA 062-EV;72344
+         |             |
+         |             \-----(o) Zastava 101;Crvena;LE 525-PT;70765
+         |                    |
+         |                    \-----(o) Renault Twingo;Plava;NS 568-NC;66484
+         |                           |
+         |                           \-----(o) Opel Corsa;Bela;SO 622-HO;65097
+         |                                  |
+         |                                  \-----(o) Opel Astra;Siva;UE 435-NL;60601
+         |
+  /-----(o) Zastava 101;Bela;NI 761-VZ;59325
+  |      |
+  |      |      /-----(o) Opel Astra;Bela;SD 799-LV;57786
+  |      |      |
+  |      \-----(o) Lancia Lybra;Siva;SU 741-KC;54260
+  |             |
+  |             |      /-----(o) Tesla X;Bela;LE 729-TA;49867
+  |             |      |
+  |             \-----(o) Lancia Ypsilon;Crvena;UE 037-PA;49546
+  |                    |
+  |                    \-----(o) Zastava Koral;Crna;BG 906-KR;49347
+  |                           |
+  |                           \-----(o) Skoda Superb;Bordo;BG 826-HK;47552
+  |
+-(o) Renault Twingo;Bela;NI 747-EF;44580
+  |
+  |      /-----(o) Lancia Ypsilon;Siva;UE 660-UJ;43715
+  |      |      |
+  |      |      |      /-----(o) Tesla S;Crna;TT 868-LC;40479
+  |      |      |      |
+  |      |      \-----(o) Cederholm #2;Crna;SD 588-PC;39047
+  |      |             |
+  |      |             \-----(o) BMW ActiveHybrid 5;Siva;SM 280-KI;38598
+  |      |
+  \-----(o) BMW Z4;Plava;NS 389-NN;37849
+         |
+         |      /-----(o) Peugeot 206;Plava;LE 810-ZO;33865
+         |      |
+         \-----(o) Citroen C4;Plava;BG 082-ZD;33658
+                |
+                \-----(o) Ford Mondeo;Crvena;NS 975-ZB;31640
+                       |
+                       |             /-----(o) Mazda 6;Crvena;RU 020-RK;28107
+                       |             |      |
+                       |             |      |             /-----(o) Opel Corsa;Crvena;NS 697-IC;24891
+                       |             |      |             |
+                       |             |      |      /-----(o) Honda CR-V;Siva;NS 431-JB;22770
+                       |             |      |      |
+                       |             |      \-----(o) Prinz;Crvena;PA 683-TJ;17998
+                       |             |             |
+                       |             |             \-----(o) Mercedes Benz 190;Siva;VR 593-GS;17324
+                       |             |
+                       |      /-----(o) Opel Astra;Siva;RU 780-RR;14403
+                       |      |
+                       \-----(o) Zastava 101;Crvena;NS 388-SV;12345
