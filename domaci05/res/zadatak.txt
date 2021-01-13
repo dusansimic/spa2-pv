@@ -1,0 +1,115 @@
+============================================================
+      Zadatak - pretrazivanje sa vracanjem - svi putevi
+============================================================
+
+
+Postavka problema
+============================================================
+
+Neka je dat lavirint kao matrica polja, pri cemu razlicite
+vrednosti polja imaju razlicito znacenje. Potrebno je
+pronaci OPTIMALAN put kroz lavirint od pocetnog polja, do
+izlaza iz lavirinta, pri cemu se pod putem smatra niz polja
+koja je potrebno posetiti u datom redosledu, da bi se stiglo
+od pocetnog polja do cilja. Pri obilasku lavirinta, sa
+jednog polja je moguce preci na susedno ako ona imaju istu
+ivicu, tj. ako se ono nalazi odmah levo, desno, gore ili
+dole u odnosu na trenutno polje.
+
+Znacenja vrednosti polja su;
+0   = slobodno polje u lavirintu na koje je dozvoljeno stati
+-11 = zid, polje na koje nije dozvoljeno stati
+-99 = izlaz iz lavirinta
+bilo koji pozitivan broj = vrednost blaga na tom polju
+
+Format fajla
+------------------------------------------------------------
+
+Mapa je u fajlu predstavljena na sledeci nacin:
+
+U prvom redu se nalaze dva broja S i V koji predstavljaju
+sirinu i visinu mape.
+
+U sledecih V redova se nalaze po S celih brojeva koji
+predstavljaju vrednosti polja u lavirintu.
+
+Polje (0, 0) nalazi se u gornjem levom polju matrice.
+
+
+Primeri
+------------------------------------------------------------
+
+Za testiranje programa su dati su fajlovi:
+"lav1.txt" i "lav2.txt" u kojima postoji resenje
+"lavp.txt" koji ne sadrzi zidove
+"lavb.txt" u kojem nije moguce naci resenje
+"blago*.txt" za testiranje zadatka sa blagom
+
+
+Zadatak
+============================================================
+
+Napisati klasu NajboljiPut koja ucitava ime fajla u kojem
+se nalazi definisan lavirint, i koordinate pocetne pozicije
+(x, y) od koje se trazi izlaz iz lavirinta.
+
+Nakon toga naci najkraci put do izlaza u lavirintu
+(vrednosti ovde nisu bitne) i ispisati ga na ekran.
+
+Prosiriti nakon toga program tako da nalazi najvredniji
+put u lavirintu - odnosno put kojim ce se pokupiti najvise
+zlatnika, ali put ne sme da sadrzi isto polje dva puta.
+Ispisati i ovaj put na ekran.
+
+
+Pretrazivanje sa vracanjem
+------------------------------------------------------------
+
+Jedan od nacina da se uradi zadatak je koriscenjem
+pretrazivanja sa vracanjem. Prethodno je radjen primer u
+kome se proverava da li put uopste postoji. Ovde je bitno
+naci sve puteve sto je dosta slicno u postavci, samo sto
+treba i dalje traziti druge mogucnosti nakon sto se nadje
+prvo resenje.
+
+Neke od modifikacija u odnosu na samo nalazenje jednog puta:
+
+1. Nakon dolaska na odredjeno polje u lavirintu potrebno je
+to polje ubaciti na kraj trenutnog puta od pocetka lavirinta
+do trenutnog polja
+
+2. Nakon povratka sa polja, potrebno je to polje izabaciti
+sa kraja trenutnog puta
+
+3. Kad se nadje izlaz, potrebno je trenutnu vrednost puta
+uporediti sa do sada najoptimalnijim pronadjenim putem i
+ukoliko je trenutni put bolji, kopirati ga u optimalan put
+
+4. Na kraju svih pretraga, vratiti optimalan put ako postoji
+ili vrednost null ako ne postoji
+
+
+Neobavezne preporuke:
+------------------------------------------------------------
+
+1. Kreirati posebnu klasu Put koja ce pamtiti resenje.
+Put pamtiti kao niz ili listu polja, od cega za svako
+polje treba zapamtiti koordinate polja i vrednost
+2. Prilikom uporedjivanja resenja, koristiti komparatore
+3. Za racunanje vrednosti puta koristiti metode koje su deo
+klase Put (npr. getSize() i getValue())
+
+
+Prosirenje zadatka:
+------------------------------------------------------------
+
+Modifikovati postojece metode za trazenje puta tako da:
+
+- pronalaze put sa najvrednijim blagom pojedinacno
+- pronalaze put na kojem postoji najvise polja sa blagom
+- pronalaze put na kojem postoji najvise uzastopnih polja sa
+  blagom
+
+- ispisati sve nadjene puteve
+- prebrojati sve puteve
+- prebrojati sve puteve sa vise od 3 uzastopna blaga

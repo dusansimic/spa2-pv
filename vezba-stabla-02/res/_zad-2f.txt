@@ -1,0 +1,123 @@
+************************************************************
+               Zadatak - Binarna stabla
+************************************************************
+
+U okviru fajla `StabloProgram.java` dodati odgovarajuce
+metode u klasi `Stablo` i njihove pozive u glavni program.
+Ukoliko neki metod vraca vrednost, u glavnom programu je
+potrebno ispisati dobijenu vrednost. Ako neki metod prima
+parametre, u glavnom programu je potrebno proslediti nekakve
+podatke. Koristiti ili samostalno definisane vrednosti ili
+zatraziti od korisnika da unese podatke.
+
+Dati glavni program `StabloProgram` ce ucitati stablo
+iz fajla i prikazati ga na ekranu.
+
+U binarnom stablu se cuvaju podaci klase `Automobil`.
+
+Automobil je predstavljen sledecim poljima:
+- model (string)
+- boja (string)
+- registracija (string)
+- kilometraza (long)
+
+Pri resavanju se ocekuje demonstracija obilaska stabla. Pri
+bodovanju resenja se gleda i efikasnost i elegantnost
+algoritma, u smislu da ako je moguce resiti problem jednim
+prolaskom kroz stablo nece se dobijati svi bodovi za resenje
+sa dva prolaska. Ovo narocito vazi za poslednji metod.
+
+Dozvoljeno je dodavanje proizvoljnog broja pomocnih metoda,
+kao i definisanje pomocnih klasa. Definisanje dodatnih polja
+u klasi Stablo ili Cvor nikad nije neophodno za date
+zadatke. Resenja koja se oslanjaju na dodatna polja
+nece moci da dobiju maksimalan broj bodova.
+
+Date klase `Automobil` i `TreeIO` ne treba menjati,
+samo ih je potrebno jednom otvoriti i snimiti radi
+kompajliranja.
+
+
+Dati fajlovi
+============================================================
+
+Dato je nekoliko fajlova koji sadrze u sebi binarna stabla
+i koji se mogu koristiti pri testiranju programa.
+
+- Malo.txt - sadrzi manje stablo
+- Veliko.txt - sadrzi vece stablo
+- Prazno.txt - sadrzi prazno stablo
+
+Dati program otvara samo fajl "Malo.txt", no to se moze
+usput menjati da otvara neki od drugih fajlova radi
+detaljnijeg testiranja metoda.
+
+Takodje je dozvoljeno da se fajlovi menjaju po potrebi pri
+testiranju ili da se prave novi fajlovi.
+
+Program treba da radi ispravno na proizvoljnom stablu.
+
+
+Zadatak
+============================================================
+
+U okviru klase `Stablo` (fajl `StabloProgram.java`) dodati
+sledece metode, a u okviru glavnog programa klase
+`StabloProgram` dodati odgovarajuce pozive koji ce
+demonstrirati funkcionisanje ovih metoda.
+
+
+Metod 1 (5 poena)
+------------------------------------------------------------
+
+public void ispisiNS()
+
+Ispisuje registracije svih automobila iz Novog Sada.
+
+
+Metod 2 (5 poena)
+------------------------------------------------------------
+
+public long presliPlavi()
+
+Vraca koliko su ukupno presli svi plavi automobili.
+
+
+Metod 3 (5 poena)
+------------------------------------------------------------
+
+public Stablo presaoJos(String registracija, long km)
+
+Vraca nezavisnu kopiju stabla iste strukture u kome je automobil 
+sa prosledjenom registracijom presao jos dati broj kilometara.
+
+
+Metod 4 (5 poena)
+------------------------------------------------------------
+
+public List<Automobil> sortiraniPlavi()
+
+Vraca sortiranu listu svih automobila koji su plave boje, 
+takve da im je kilometraza veca od roditelja i njegovog
+drugog deteta (ako postoji).
+
+
+Metod 5 (10 poena)
+------------------------------------------------------------
+
+public boolean jeBST()
+
+Vraca da li ovo stablo zadovoljava uslove za binarno
+stablo pretrazivanja (Binary Search Tree - BST) po
+kilometrazi automobila, odnosno da li vazi za svaki cvor da
+su svi u levom podstablu sa manje kilometara, a u desnom
+podstablu sa vise. Listovi trivijalno zadovoljavaju uslov.
+
+
+Stil programiranja (1 poen)
+------------------------------------------------------------
+
+Pri pisanju programa obratiti paznju na stil, sto ukljucuje
+organizaciju koda u klase i metode, vidljivost polja i
+metoda u klasama, uredno formatiranje koda, logicna imena
+klasa, metoda i polja u skladu sa standardima jezika Java.

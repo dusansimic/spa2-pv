@@ -1,0 +1,108 @@
+============================================================
+          Zadatak: pretrazivanje sa vracanjem
+============================================================
+
+Napisati program pod nazivom `NalazenjePuta` koji ucitava
+dole opisanu mapu iz fajla koji precizira korisnik i nad
+njom resava dati problem.
+
+
+Postavka problema
+============================================================
+
+Grcki junak Tezej poslat je u lavirint da spasi princezu 
+Arijadnu i ubije cudoviste Minotaura koji je cuvao lavirint.
+Kako bi lakse ubio Minotaura, Tezej moze da koristi
+razlicita oruzja koja su rasuta po lavirintu.
+
+Sa jednog polja se moze preci na drugo, ukoliko imaju
+zajednicku stranicu, odnosno mozemo preci na polje levo,
+desno, gore ili dole. Mocvaru tretirati kao normalna polja.
+Medjutim, kako je Tezeju cilj da prvo
+spasi princezu Arijadnu, on je odlucio da izbegeva sva 
+polja koja se nalaze odmah pored Minotaura (gore, dole, levo
+i desno od Minotaura) jer bi zeleo da izbegne borbu sa 
+Minotaurom pre nego sto spasi princezu. Pomozite Tezeju da
+pronadje princezu Arijadnu. Nakon sto je izvede vratice
+se po Minotaura, odnosno Minotaur ne treba da bude deo resenja.
+
+Ukoliko postoji vise puteva, optimalan put bi bio put koji 
+sadrzi sto vise razlicitih oruzja jer to pruza mogucnost
+Tezeju da lakse izabere oruzje kojim ce ubiti Minotaura.
+
+Pocetno polje je na koordinatama 0,0, odnosno u gornjem
+levom uglu.
+
+
+Format fajla
+------------------------------------------------------------
+
+Mapa je u fajlu predstavljena na sledeci nacin:
+
+U prvom redu se nalaze dva broja S i V koji predstavljaju
+sirinu i visinu mape.
+
+U sledecih V redova se nalaze po S celih brojeva koji
+predstavljaju lavirint. Brojevi imaju sledece znacenje:
+
+0 - slobodna polja
+1..10 - oruzja
+20 - polje na kojem se nalazi Minotaur
+30 - polje na kojem se nalazi princeza Arijadna
+-11 - ziva ograda
+-1..-10 - mocvara (-1 najplica, -10 najdublja).
+
+
+Primeri
+------------------------------------------------------------
+
+Za testiranje programa su dati fajlovi u*.txt
+
+U fajlu ub.txt nije moguce naci resenje. U fajlu u1.txt je
+sigurno moguce da se nadje resenje. Za ostale je nepoznato
+da li su resivi.
+
+Dat je i fajl "lav.txt" koji predstavlja lavirint kakav je
+radjen na vezbama i na kome se mogu testirati originalni
+algoritmi pre prilagodjavanja datom problemu. Nije neophodno
+raditi ovaj problem uopste.
+
+
+Zadatak
+============================================================
+
+Pretrazivanje sa vracanjem (14 poena)
+------------------------------------------------------------
+
+Ucitati mapu iz fajla cije ime unosi korisnik, resiti gore
+opisani problem i resenje ispisati na ekran.
+
+Putevi se mogu ispisivati kao liste polja (koordinata),
+u nekoj vizuelnoj formi na mapi ili na bilo koji drugi
+nacin iz koga se jasno moze videti put. 
+
+Za maksimalan broj poena se ocekuje da postoji neki
+jedinstveni objekat koji predstavlja put koji se generise.
+
+
+Bodovanje
+----------
+
+5 poena - nalazenje bilo kakvog puta sa odgovarajucim
+strukturama
+
+5 poena - nalazenje "svih" puteva u skladu sa datim pravilima
+
+4 poena - tacno resavanje datog problema
+
+
+Stil programiranja (1 poen)
+------------------------------------------------------------
+
+Pri pisanju programa obratiti paznju na stil, sto ukljucuje
+organizaciju koda u klase i metode, vidljivost polja u
+klasama, uredno formatiranje koda, logicna imena klasa,
+metoda i polja u skladu sa standardima jezika Java.
+
+Od programa se, naravno, ocekuje da radi nesto - tj da
+glavni program nije prazan.
