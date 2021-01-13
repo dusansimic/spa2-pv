@@ -1,0 +1,120 @@
+============================================================
+          Zadatak: pretrazivanje sa vracanjem
+============================================================
+
+Napisati program pod nazivom `NalazenjePuta` koji ucitava
+dole opisanu mapu iz fajla koji precizira korisnik i nad
+njom resava dati problem.
+
+
+Postavka problema
+============================================================
+
+Data nam je sema plocica u dvorani koje su sve oznacene
+nekim brojevima, koja se koristi kao tabla za igru.
+
+Cilj je zadat kao plocica sa brojem -9.
+
+(0) Sa jednog polja se moze preci na drugo, ukoliko imaju
+zajednicku stranicu, odnosno mozemo preci na polje levo,
+desno, gore ili dole, pri cemu se posmatra i parnost
+polja - moguce je preci samo na polje koje ima broj iste
+parnosti. Izuzetak od pravila je polje cilj na koje 
+se uvek moze preci sa suseda.
+Ni na jedno polje se ne sme stati vise od 1 put.
+
+(1)Interesuje nas koliko ima puteva koji su duzine makar K
+koraka (K za konkretni lavirint je dato u fajlu).
+U duzinu se racuna i pocetno i ciljno polje. Ispisati na
+ekran bar jedan tacan put, ukoliko takav postoji. Sacuvati
+sve puteve u odredjenu strukturu po izboru (lista, niz). 
+
+(2) Dodatno, pored broja puteva, interesuje nas i koji je put optimalan. 
+Optimalan put u ovom slucaju je onaj put koji ima najvecu ukupnu 
+apsolutnu vrednost polja.  
+
+(3) Poslednje, ne sme se stati na polje ukoliko se u redu u kojoj se to polje 
+nalazi, nalazi i maksimalno polje za datu matricu. Na primer, pogledajte 
+matricu u1. "Najvece" polje u njoj je 77. To znaci da nijedan put ne sme 
+da prodje kroz polje koje pripada 1. redu ove matrice.
+
+Pocetno polje je zadato svojim koordinatama (PS,PV) (u fajlu).
+
+
+Format fajla
+------------------------------------------------------------
+
+Mapa je u fajlu predstavljena na sledeci nacin:
+
+U prvom redu se nalaze dva broja S i V koji predstavljaju
+sirinu i visinu mape.
+
+U sledecih V redova se nalaze po S celih brojeva koji
+predstavljaju lavirint. Brojevi imaju sledece znacenje:
+
+ -9 - cilj puta
+bilo koji drugi broj predstavlja oznaku tog polja.
+
+Nakon toga u novom redu slede dva broj PS i PV, koji
+predstavljaju pocetne koordinate puta.
+
+I na kraju fajla se u novom redu nalazi broj K.
+
+
+Primeri
+------------------------------------------------------------
+
+Za testiranje programa su dati fajlovi u*.txt
+
+U fajlu ub.txt nije moguce naci resenje. U fajlu u1.txt je
+sigurno moguce da se nadje resenje. Za ostale je nepoznato
+da li su resivi.
+
+Dat je i fajl "lav.txt" koji predstavlja lavirint kakav je
+radjen na vezbama i na kome se mogu testirati originalni
+algoritmi pre prilagodjavanja datom problemu. Nije neophodno
+raditi ovaj problem uopste.
+
+
+Zadatak
+============================================================
+
+Pretrazivanje sa vracanjem (28 poena)
+------------------------------------------------------------
+
+Ucitati mapu iz fajla cije ime unosi korisnik, resiti gore
+opisani problem i resenje ispisati na ekran.
+
+Putevi se mogu ispisivati kao liste polja (koordinata),
+u nekoj vizuelnoj formi na mapi ili na bilo koji drugi
+nacin iz koga se jasno moze videti put. 
+
+Za maksimalan broj poena se ocekuje da postoji neki
+jedinstveni objekat koji predstavlja put koji se generise.
+
+
+Bodovanje
+----------
+
+(0) 8 poena - nalazenje bilo kakvog puta sa odgovarajucim
+strukturama (odgovor na pitanje: da li postoji put?)
+
+(1) 8 poena - nalazenje "svih" puteva u skladu sa datim pravilima
+(odgovor na pitanje: koliko ukupno ima puteva?)
+
+(2) 5 poena - nalazenje optimalnog puta
+
+(3) 7 poena - put ne sme da prodje kroz red koji sadrzi
+najvece polje matrice
+
+
+Stil programiranja (2 poena)
+------------------------------------------------------------
+
+Pri pisanju programa obratiti paznju na stil, sto ukljucuje
+organizaciju koda u klase i metode, vidljivost polja u
+klasama, uredno formatiranje koda, logicna imena klasa,
+metoda i polja u skladu sa standardima jezika Java.
+
+Od programa se, naravno, ocekuje da radi nesto - tj da
+glavni program nije prazan.
