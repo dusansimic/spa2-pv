@@ -1,0 +1,13 @@
+         /-----(o) Orirnot Bronzanoledji;1;1567;829.03
+         |      |
+         |      \-----(o) Osin Gvozdeni;86;1812;294.15
+         |
+  /-----(o) Timnunri Munjokameni;31;1725;636.77
+  |
+-(o) Strondur Kamenobradi;65;1851;430.36
+  |
+  |      /-----(o) Kukut Bazaltozubi;31;999;384.67
+  |      |
+  \-----(o) Dalofraik;8;979;749.46
+         |
+         \-----(o) Snafumi Hrastostit;90;1850;212.78
